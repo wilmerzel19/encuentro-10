@@ -18,9 +18,9 @@ export const Header = (props: Props) => {
 
       <div>
         <h1 className="font-bold">
-          Reservaciones de eventos y compras en l&iacute;nea
+          Reservaciones de Hoteles
         </h1>
-        <p>Comercial "La econ&oacute;mica"</p>
+        <p>"Francia Paris"</p>
       </div>
 
       <span>

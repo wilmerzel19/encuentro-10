@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Title } from "../components/Title";
+import { Imagen } from "../components/Imagen";
 
 export const Inicio = () => {
   useEffect(() => {
@@ -9,7 +10,11 @@ export const Inicio = () => {
   }, []);
   return (
     <>
-      <Title titulo="Bienvenido!" />
+ 
+      <Title titulo="Hoteles" />
+
+      <Imagen />
     </>
+   
   );
 };

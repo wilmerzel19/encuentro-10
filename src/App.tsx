@@ -9,6 +9,7 @@ import { Promociones } from './pages/Promociones';
 import { Ayuda } from './pages/Ayuda';
 import { Header } from './components/Header';
 import { Aside } from './components/Aside';
+import Navbar from './components/Navbar';
 
 export default function App() {
   const [mostrar, setMostrar] = useState(0);
@@ -22,6 +23,7 @@ export default function App() {
         mostrar={mostrar}
         setMostrar={setMostrar}
       />
+      <Navbar />
 
 
 
