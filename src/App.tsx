@@ -42,7 +42,7 @@ export default function App() {
         </section>
       </main>
 
-      <footer className='fixed bottom-0 left-0 right-0 h-auto text-white border-t-4 border-rose-500 bg-slate-500'>
+      <footer className='fixed bottom-0 left-0 right-0 h-auto text-white border-t-4 bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div className="container p-4 m-auto">
           <p className="text-center">Todos los derechos reservados</p>
         </div>
