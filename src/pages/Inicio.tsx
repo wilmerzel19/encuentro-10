@@ -18,7 +18,14 @@ export const Inicio = () => {
       <Imagen />
       <br />  
 
+   
+  
+    <div>
       <Card />
+<br />
+<br />
+
+    </div>
     </>
    
   );
