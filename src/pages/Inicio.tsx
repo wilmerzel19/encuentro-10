@@ -14,9 +14,7 @@ export const Inicio = () => {
  
       <Title titulo="Hoteles" />
       <br />
-
-      <Imagen />
-      <br />  
+      <br />
 
    
   

@@ -7,22 +7,16 @@ import { Eventos } from './pages/Eventos';
 import { Sedes } from './pages/Sedes';
 import { Promociones } from './pages/Promociones';
 import { Ayuda } from './pages/Ayuda';
-import { Header } from './components/Header';
-import { Aside } from './components/Aside';
+
 import Navbar from './components/Navbar';
+import { Imagen } from './components/Imagen';
 
 export default function App() {
   const [mostrar, setMostrar] = useState(0);
   return (
     <>
-      <Header
-        mostrar={mostrar}
-        setMostrar={setMostrar}
-      />
-      <Aside
-        mostrar={mostrar}
-        setMostrar={setMostrar}
-      />
+    <Imagen />
+   
       <Navbar />
 
 
