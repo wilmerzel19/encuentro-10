@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Title } from "../components/Title";
-import { Imagen } from "../components/Imagen";
 import { Card } from "../components/Card";
 
 export const Inicio = () => {

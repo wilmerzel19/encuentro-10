@@ -1,6 +1,5 @@
 import './css/estilos.css';
 import { Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
 
 import { Inicio } from './pages/Inicio';
 import { Eventos } from './pages/Eventos';
@@ -12,7 +11,6 @@ import Navbar from './components/Navbar';
 import { Imagen } from './components/Imagen';
 
 export default function App() {
-  const [mostrar, setMostrar] = useState(0);
   return (
     <>
     <Imagen />

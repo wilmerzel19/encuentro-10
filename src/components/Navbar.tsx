@@ -54,7 +54,7 @@ export default function Navbar() {
               <span className="group-hover:font-bold">Vuelos</span>
             </li>
           </a>
-          <a href="#/transports">
+          <a href="#/ayuda">
             <li className="flex flex-col cursor-pointer group">
               <span
                 className="
