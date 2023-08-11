@@ -16,7 +16,7 @@ export default function Table() {
   useEffect(() => {
     fetch("json/personas.json")
       .then((response) => response.json())
-      .then((data) => {
+      .then((data:Persona[]) => {
         setJsonData(data);
         setLoading(false);
       })
