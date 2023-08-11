@@ -47,7 +47,7 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {jsonData.map((item:Persona) => {
+          {jsonData.map((item) => {
             return (
               <tr key={item.id}>
                 <td>
