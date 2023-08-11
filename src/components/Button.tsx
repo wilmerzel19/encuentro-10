@@ -3,6 +3,7 @@
 
 type Props = {
     text:string
+    class:string
 }
 
 export default function Button({text}: Props) {

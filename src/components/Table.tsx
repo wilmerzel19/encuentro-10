@@ -57,8 +57,8 @@ export default function Table() {
                 <td>{item.comentario}</td>
 
                 <td>
-                  <Button  text="Editar" />
-                  <Button text="Eliminar" />
+                  <Button class="bg-red-500" text="Editar" />
+                  <Button class= 'bg-cyan-500' text="Eliminar" />
                 </td>
               </tr>
             );
