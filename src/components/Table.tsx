@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { useEffect, useState } from "react";
 
-import { Link } from "react-router-dom";
 import Button from "./Button";
 
 export default function Table() {
@@ -44,7 +45,7 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {jsonData.map((item: any) => (
+          {jsonData.map((item: any)=> (
             <tr key={item.id}>
               <td>
                   <div className="flex items-center space-x-3">
