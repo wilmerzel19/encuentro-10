@@ -20,7 +20,7 @@ export const Inicio = () => {
     <div>
       <Card titulo="hotel de paris" price="$500" img={{ src: "img/hotel1.png", alt: "paris" }}/>
 <br />
-<br />
+
       <Card titulo="hotel de paris" price="$600"  img={{ src: "img/hotel2.png", alt: "paris" }}/>
 
     </div>

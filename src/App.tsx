@@ -9,6 +9,7 @@ import { Ayuda } from './pages/Ayuda';
 
 import Navbar from './components/Navbar';
 import { Imagen } from './components/Imagen';
+import { Personas } from './pages/Personas';
 
 export default function App() {
   return (
@@ -37,6 +38,8 @@ export default function App() {
             <Route
               path="/ayuda"
               element={<Ayuda />}></Route>
+
+              <Route path="/personas" element={<Personas />}></Route>
           </Routes>
 
         </section>
