@@ -40,7 +40,7 @@ export default function Table() {
       <table className="table mt-10">
         <thead>
           <tr>
-            <th>Nombre</th>
+            <th>Name</th>
             <th>Email</th>
             <th>Comentario</th>
             <th>Acciones</th>
@@ -57,7 +57,7 @@ export default function Table() {
                 <td>{item.comentario}</td>
 
                 <td>
-                  <Button text="Editar" />
+                  <Button  text="Editar" />
                   <Button text="Eliminar" />
                 </td>
               </tr>
