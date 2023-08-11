@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { useEffect, useState } from "react";
 
 import Button from "./Button";
@@ -45,24 +42,14 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {jsonData.map((item: any)=> (
+          {jsonData.map((item:any) => (
             <tr key={item.id}>
               <td>
-                  <div className="flex items-center space-x-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12"></div>
-                    </div>
-                    <div>
-                      <div className="font-bold">{item.name}</div>
-
-                      <div className="text-sm opacity-50">{item.email}</div>
-                    </div>
-                  </div>
+                <div className="font-bold">{item.name}</div>
               </td>
               <td>
                 {item.email}
                 <br />
-                <span className="badge badge-ghost badge-sm">{item.name}</span>
               </td>
               <td>{item.body}</td>
 
