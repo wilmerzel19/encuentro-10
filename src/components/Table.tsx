@@ -14,7 +14,7 @@ export default function Table() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("/Api/personas.json")
+    fetch("Api/personas.json")
       .then((response) => response.json())
       .then((data:Persona[]) => {
         setJsonData(data);
