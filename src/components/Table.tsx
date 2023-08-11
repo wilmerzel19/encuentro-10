@@ -9,8 +9,8 @@ export default function Table() {
 
   useEffect(() => {
     fetch("json/personas.json")
-      .then((response) => response.json())
-      .then((data) => {
+      .then(response => response.json())
+      .then(data => {
         setJsonData(data);
         setLoading(false);
       })
@@ -38,20 +38,19 @@ export default function Table() {
             <th>Email</th>
             <th>Comentario</th>
             <th>Acciones</th>
-            <th></th>
+           
           </tr>
         </thead>
         <tbody>
-          {jsonData.map((item:any) => (
+          {jsonData.map((item: any) => (
             <tr key={item.id}>
               <td>
-                <div className="font-bold">{item.name}</div>
+                <div className="font-bold">{item.nombre}</div>
               </td>
               <td>
                 {item.email}
-                <br />
               </td>
-              <td>{item.body}</td>
+              <td>{item.comentario}</td>
 
               <td>
                 <Button text="Editar" />
