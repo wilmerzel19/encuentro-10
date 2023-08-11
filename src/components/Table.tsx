@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { useEffect, useState } from "react";
 
 import Button from "./Button";
@@ -42,22 +45,25 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {jsonData.map((item: any) => (
-            <tr key={item.id}>
-              <td>
-                <div className="font-bold">{item.nombre}</div>
-              </td>
-              <td>
-                {item.email}
-              </td>
-              <td>{item.comentario}</td>
+          {jsonData.map((item:any) => {
+              return (
+                  <tr key={item.id}>
+                      <td>
+                          <div className="font-bold">{item.nombre}</div>
+                      </td>
+                      <td>
+                          // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+                          {item.email}
+                      </td>
+                      <td>{item.comentario}</td>
 
-              <td>
-                <Button text="Editar" />
-                <Button text="Eliminar" />
-              </td>
-            </tr>
-          ))}
+                      <td>
+                          <Button text="Editar" />
+                          <Button text="Eliminar" />
+                      </td>
+                  </tr>
+              );
+          })}
         </tbody>
       </table>
     </div>
