@@ -37,10 +37,10 @@ export default function Table() {
 
   return (
     <div className="overflow-x-auto">
-      <table className="table mt-10">
+      <table className="table-zebra min-w-full divide-y divide-gray-500 ">
         <thead>
           <tr>
-            <th>Name</th>
+            <th className="min-w-full divide-y divide-gray-500 ">Name</th>
             <th>Email</th>
             <th>Comentario</th>
             <th>Acciones</th>
@@ -51,9 +51,9 @@ export default function Table() {
             return (
               <tr key={item.id}>
                 <td>
-                  <div className="font-bold">{item.nombre}</div>
+                  <div className="font-bold min-w-full divide-y divide-gray-500 " >{item.nombre}</div>
                 </td>
-                <td>{item.email}</td>
+                <td className="min-w-full divide-y divide-gray-500 ">{item.email}</td>
                 <td>{item.comentario}</td>
 
                 <td>
