@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Title } from "../components/Title";
 import { Card } from "../components/Card";
+import { Link } from "react-router-dom";
 
 export const Inicio = () => {
   useEffect(() => {
@@ -18,10 +19,13 @@ export const Inicio = () => {
    
   
     <div>
+      <Link to="/personas">
       <Card titulo="hotel de paris" price="$500" img={{ src: "img/hotel1.png", alt: "paris" }}/>
+      </Link>
 <br />
-
+<Link to="/personas">
       <Card titulo="hotel de paris" price="$600"  img={{ src: "img/hotel2.png", alt: "paris" }}/>
+      </Link>
 
     </div>
     </>
