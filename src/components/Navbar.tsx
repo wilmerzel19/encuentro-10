@@ -3,7 +3,7 @@ import { MdPeople } from "react-icons/md";
 export default function Navbar() {
   return (
     <div>
-      <nav className="flex px-3 mt-4 sm:px-2">
+      <nav className="flex px-3 mt-4 sm:px-2 ">
         <ul className="grid gap-x-5 lg:gap-x-10 grid-cols-5 w-full justify-between text-center">
         <a href="#/personas">
             <li className="flex flex-col cursor-pointer group">
@@ -11,8 +11,8 @@ export default function Navbar() {
                 className="
             flex h-20 items-center justify-center rounded-lg
             
-            text-cyan-500
-            hover:text-white hover:bg-cyan-500
+            text-red-800
+            hover:text-white hover:bg-red-300
             "
               >
                 <MdPeople size="45"/>
@@ -27,9 +27,8 @@ export default function Navbar() {
               <span
                 className="
             flex h-24 items-center justify-center rounded-lg
-            
-            text-cyan-500
-            hover:text-white hover:bg-cyan-500
+            text-red-800
+            hover:text-white hover:bg-red-300
             "
               >
                 <svg
@@ -53,8 +52,8 @@ export default function Navbar() {
                 className="
             flex h-24 items-center justify-center rounded-lg
             
-            text-cyan-500
-            hover:text-white hover:bg-cyan-500
+            text-red-800
+            hover:text-white hover:bg-red-300
             "
               >
                 <svg
@@ -78,9 +77,8 @@ export default function Navbar() {
               <span
                 className="
             flex h-24 items-center justify-center rounded-lg
-            bg-cyan-500
-            text-white
-            hover:text-cyan-500 hover:bg-white
+            text-red-800
+            hover:text-white hover:bg-red-300
             "
               >
                 <svg
@@ -103,9 +101,8 @@ export default function Navbar() {
               <span
                 className="
             flex h-24 items-center justify-center rounded-lg
-            
-            text-cyan-500
-            hover:text-white hover:bg-cyan-500
+            text-red-800
+            hover:text-white hover:bg-red-300
             "
               >
                 <svg
