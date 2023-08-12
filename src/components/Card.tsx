@@ -24,6 +24,12 @@ export const Card = (props: Props) => {
           <p className="font-bold text-gray-900 text-lg">{props.titulo}</p>
           <div className="mt-3 flex items-center">
             <span className="text-sm font-semibold">{props.img.alt}</span>
+            <div className="rating gap-1">
+            <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
+            <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
+            <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
+            <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
+            </div>
             <span className="px-2 py-1 bg-gray-800 text-xs text-gray-100 font-semibold rounded ml-auto">
               {props.price}
             </span>
