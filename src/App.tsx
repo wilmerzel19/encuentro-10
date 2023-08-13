@@ -39,7 +39,7 @@ export default function App() {
               path="/ayuda"
               element={<Ayuda />}></Route>
 
-              <Route path="/personas" element={<Personas />}></Route>
+              <Route path="/personas/:id" element={<Personas />}></Route>
           </Routes>
 
         </section>
