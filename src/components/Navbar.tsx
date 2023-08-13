@@ -1,4 +1,4 @@
-import { MdPeople } from "react-icons/md";
+import { MdInfo, MdPeople } from "react-icons/md";
 
 export default function Navbar() {
   return (
@@ -15,11 +15,11 @@ export default function Navbar() {
             hover:text-white hover:bg-red-300
             "
               >
-                <MdPeople size="45"/>
+                <MdInfo size="45"/>
                   <path fill="none" d="M0 0h24v24H0V0z"></path>
                   <path d="M16 6v8h3v8h2V2c-2.76 0-5 2.24-5 4zm-5 3H9V2H7v7H5V2H3v7c0 2.21 1.79 4 4 4v9h2v-9c2.21 0 4-1.79 4-4V2h-2v7z"></path>
               </span>
-              <span className="group-hover:font-bold">Posts</span>
+              <span className="group-hover:font-bold">Informacion</span>
             </li>
           </a>
           <a href="#/">

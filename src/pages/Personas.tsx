@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"; // Asegúrate de importar useParams
 import { Title } from "../components/Title";
 
+
 type Hotel = {
   id: number;
   name: string;
@@ -34,6 +35,8 @@ export const Personas = () => {
   return (
     <div>
       <Title titulo="Detalles del hotel" />
+      <br />
+      <br />
       <div className="overflow-hidden bg-white rounded-lg shadow-md hover:cursor-pointer">
         {hotel && (
           <div
@@ -71,8 +74,10 @@ export const Personas = () => {
         <br />
         <br />
         <br />
+        
 
 
     </div>
+  
   );
 };
