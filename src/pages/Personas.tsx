@@ -9,9 +9,7 @@ type Hotel = {
   description: string;
   starring: number;
   address: string;
-
   price: number;
-
   image: string;
 };
 
